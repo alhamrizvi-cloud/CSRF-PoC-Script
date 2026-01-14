@@ -8,5 +8,3 @@ This PoC shows how a CSRF attack can trigger an action (such as changing an acco
 If the victim is logged in on the target site, their browser may automatically send cookies when this form is submitted.
 
 to Download the PoC Check the file section :)
-
-commit
